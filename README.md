@@ -14,6 +14,16 @@ check the contents of a directory:
    
     $ls [-a][-l]
     
+create a directory:
+
+    $mkdir [name of the directory]
+    
+delete a file/directory:
+
+    $rm [file_name]
+    
+## github commands
+
    
 
    
