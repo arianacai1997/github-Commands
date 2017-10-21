@@ -24,6 +24,17 @@ delete a file/directory:
     
 ## github commands
 
+    $git clone [url]
+    $git remote
+    $git fetch
+    $git pull [name of the remote]
+    $git push
+    $git checkout
+    $git branch
+    $git git status
+    $git add
+    $git commit
+    $git merge
    
 
    
