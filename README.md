@@ -6,7 +6,14 @@ A collection of terminal commands of Linux and windows that are related to githu
 $cd [the path of the directory]
 </code></pre>
 
-here is an example of applescript:
+change directory:
 
-    tell application "Foo"
-    end tell
+    $cd [the path of the directory]
+   
+check the contents of a directory:
+   
+    $ls [-a][-l]
+    
+   
+
+   
