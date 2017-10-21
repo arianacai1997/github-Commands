@@ -35,6 +35,5 @@ delete a file/directory:
     $git add
     $git commit
     $git merge
-   
-
-   
+   
+![github_structure](https://github.com/hogwild/github-Commands/githubstructure.jpg) 
