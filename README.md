@@ -6,3 +6,7 @@ A collection of terminal commands of Linux and windows that are related to githu
 $cd [the path of the directory]
 </code></pre>
 
+here is an example of applescript:
+
+    tell application "Foo"
+    end tell
