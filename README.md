@@ -23,6 +23,9 @@ delete a file/directory:
     $rm [file_name]
     
 ## github commands
+Here is the github structure:![github_structure](https://github.com/hogwild/github-Commands/blob/master/githubstructure.jpg) 
+
+The respective commands are:
 
     $git clone [url]
     $git remote
@@ -36,4 +39,3 @@ delete a file/directory:
     $git commit
     $git merge
    
-Here is the github structure.![github_structure](https://github.com/hogwild/github-Commands/blob/master/githubstructure.jpg) 
