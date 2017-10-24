@@ -21,6 +21,7 @@ create a directory:
 delete a file/directory:
 
     $rm [file_name]
+## For those Windows guys
     
 ## github commands
 Here is the github structure:![github_structure](https://github.com/hogwild/github-Commands/blob/master/githubstructure.jpg) 
