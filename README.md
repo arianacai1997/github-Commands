@@ -31,8 +31,20 @@ Here is the github structure:![github_structure](https://github.com/hogwild/gith
 
 The respective commands are:
 
-    $git clone [url]
+Copy the repository from the remote to the local:
+ 
+    $git clone [url][name of local directory(optional)]
+
+Show the name list of the remoters
+
     $git remote
+    $git remote show [name of the remote]
+    $git remote add [name of the remote] [url]
+    $git remote rm [name of the remote]
+    $git remote rename [old name of the remote] [new name of the remote]
+    
+Fetch branches and/or tags from one or more other repositories, along with the objects necessary to complete their histories. 
+
     $git fetch
     $git pull [name of the remote]
     $git push
