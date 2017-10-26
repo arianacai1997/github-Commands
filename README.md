@@ -46,11 +46,11 @@ Pull back the updates of the branches from the remote, then merge them with the 
 
     $git pull [name of the remote][name of the branch on remote]:[name of the local branch]
 
-examples1: pull back the branch1 on the remote named origin to local and merge it with a local branch named branch2
+Example1: pull back the branch1 on the remote named origin to local and merge it with a local branch named branch2
 
     $git pull origin branch1:branch2 
 
-example2: pull back the branch1 on the remote named origin to local and merge it with the current branch
+Example2: pull back the branch1 on the remote named origin to local and merge it with the current branch
 
     $ git pull origin branch1
 
