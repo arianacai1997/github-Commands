@@ -73,10 +73,26 @@ Create a new local branch
 
 To show the existing branches
 
-    $git git status
+    $git branch
 
+To show the changes in the current branch
+ 
+    $git status
 
-    $git add
-    $git commit
-    $git merge
+To add the change into Index
+
+    $git add [name of the changed file]
+
+Add all the changes 
+
+    $git add .
+    $git add * 
+
+To commit to the changes into repository
+
+    $git commit [-a][m] "some message about the changes"
+
+To merge the current branch with another branch
+ 
+    $git merge [name of another branch]
    
