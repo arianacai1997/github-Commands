@@ -1,10 +1,7 @@
-# Commands use in terminal/cmd
+# Commands for in terminal/cmd
 A collection of terminal commands of Linux and windows that are related to github
 
 ## Linux commands
-<pre><code> change directory:
-$cd [the path of the directory]
-</code></pre>
 
 change directory:
 
@@ -29,7 +26,7 @@ todo:
 ## github commands
 Here is the github structure:![github_structure](https://github.com/hogwild/github-Commands/blob/master/githubstructure.jpg) 
 
-The respective commands are:
+### The respective commands are:
 
 Copy the repository from the remote to the local:
  
@@ -45,7 +42,9 @@ Show the name list of the remoters
     
 Fetch branches and/or tags from one or more other repositories, along with the objects necessary to complete their histories. 
 
-    $git fetch
+    $git fetch [name of the remote] [name of the branch(optimal)]
+
+
     $git pull [name of the remote]
     $git push
     $git checkout
