@@ -26,13 +26,11 @@ todo:
 ## github commands
 Here is the github structure:![github_structure](https://github.com/hogwild/github-Commands/blob/master/githubstructure.jpg) 
 
-### The respective commands are:
-
 Copy the repository from the remote to the local:
  
     $git clone [url][name of local directory(optional)]
 
-Show the name list of the remoters
+Operations for the remote
 
     $git remote
     $git remote show [name of the remote]
