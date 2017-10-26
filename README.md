@@ -30,7 +30,7 @@ Copy the repository from the remote to the local:
  
     $git clone [url][name of local directory(optional)]
 
-Operations for the remote
+Operations for the remote:
 
     $git remote
     $git remote show [name of the remote]
@@ -42,8 +42,18 @@ Fetch branches and/or tags from one or more other repositories, along with the o
 
     $git fetch [name of the remote] [name of the branch(optimal)]
 
+Pull back the updates of the branches from the remote, then merge them with the local branches.
 
-    $git pull [name of the remote]
+    $git pull [name of the remote][name of the branch on remote]:[name of the local branch]
+
+examples1: pull back the branch1 on the remote named origin to local and merge it with a local branch named branch2
+
+    $git pull origin branch1:branch2 
+
+example2: pull back the branch1 on the remote named origin to local and merge it with the current branch
+
+    $ git pull origin branch1
+
     $git push
     $git checkout
     $git branch
