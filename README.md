@@ -75,7 +75,7 @@ To show the existing branches
 
     $git branch
     $git branch -r # show the remote branch
-    $git branch -r # show all branch (i.e., local + remote)
+    $git branch -a # show all branch (i.e., local + remote)
 
 To show the changes in the current branch
  
