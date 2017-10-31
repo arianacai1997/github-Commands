@@ -52,12 +52,15 @@ Example1: pull back the branch1 on the remote named origin to local and merge it
 
 Example2: pull back the branch1 on the remote named origin to local and merge it with the current branch
 
-    $ git pull origin branch1
+    $git pull origin branch1
 
 Upload the updates of local branch to the remote.
 
-    git push [name of the remote][name of the local branch]:[name of the remote branch] 
+    $git push [name of the remote][name of the local branch]:[name of the remote branch] 
+    
+Upload the updates of local branch to the remote branch whose name is same to the local branch.
 
+    $git push [name of the remote][name of the local branch]
 
 Change the current working branch
 
