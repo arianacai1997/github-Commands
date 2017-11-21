@@ -100,4 +100,9 @@ To commit to the changes into repository
 To merge the current branch with another branch
  
     $git merge [name of another branch]
-   
+
+To initialize the local directory for github
+
+    $cd [the directory you want to initialize for git]   
+    $git init
+    $git remote add origin [URL of the github repository]
